@@ -38,9 +38,12 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 40px 30px 0px 200px;
+    padding: 40px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -56,4 +59,29 @@ nav a{
 .banner-image> img{
     width: 450px;
     margin-left: 200px;
+}
+
+/* about section start */
+.about{
+    padding: 100px;
+    text-align: center;
+    margin: 50px 150px;
+    background-color: #FFF8F3;
+}
+.section-description{
+    color: #757575;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info> p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #757575;
+}
+.info> b{
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 0px;
 }
