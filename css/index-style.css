@@ -60,16 +60,24 @@ nav a{
     width: 450px;
     margin-left: 200px;
 }
-
+/* main part start from here */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 /* about section start */
 .about{
     padding: 100px;
     text-align: center;
-    margin: 50px 150px;
+    margin: 50px 0px;
     background-color: #FFF8F3;
+}
+.section-title{
+    text-align: center;
 }
 .section-description{
     color: #757575;
+    text-align: center;
 }
 .about-info{
     display: flex;
@@ -84,4 +92,21 @@ nav a{
     margin-top: 0px;
     padding-top: 0px;
     line-height: 0px;
+}
+/* new section */
+#work-description{
+    padding: 30px 100px;
+    
+}
+/* skills section */
+.skills-container{
+   display: flex;
+   justify-content: space-between;
+}
+.skill{
+    width: 270px;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,6%);
 }
