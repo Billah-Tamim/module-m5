@@ -1,0 +1,37 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.web-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(24, 24, 24);
+}
+.web-title> span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.nav-btn{
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+}
