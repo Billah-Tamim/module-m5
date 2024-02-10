@@ -5,6 +5,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .web-title{
     font-size: 45px;
@@ -26,7 +27,7 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
-.nav-btn{
+.nav-btn, .banner-btn{
     background-color: #FD6E0A;
     border-radius: 6px;
     color: #FFFFFF;
@@ -34,4 +35,25 @@ nav a{
     font-weight: bold;
     font-size: 20px;
     border: 0;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 40px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.contact-btn{
+    border: 1px solid #FD6E0A;
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-image> img{
+    width: 450px;
+    margin-left: 200px;
 }
